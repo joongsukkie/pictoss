@@ -1,0 +1,19 @@
+@font-face { font-family: "Chakra"; src: url("ChakraPetch-SemiBold.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Mono";   src: url("ShareTechMono-Regular.ttf") format("truetype"); font-display: swap; }
+:root { --void:#05060B; --text:#F4F7FF; --dim:#9AA3BE; --faint:#5A6179; --ice:#6FE9FF; --edge:rgba(255,255,255,.10); }
+* { box-sizing: border-box; }
+html { background: var(--void); }
+body { margin:0; color:var(--dim); font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+       background: linear-gradient(#0A0E1C, #05060B 60%); min-height:100vh; }
+main { max-width: 660px; margin: 0 auto; padding: 56px 20px 80px; }
+header { display:flex; align-items:center; gap:14px; margin-bottom: 40px; }
+header img { width:52px; height:52px; border-radius:12px; }
+header a { font-family:"Chakra", sans-serif; letter-spacing:.32em; color:var(--text); text-decoration:none; font-size:18px; }
+h1 { font-family:"Chakra", sans-serif; color:var(--text); font-size:30px; line-height:1.2; margin:0 0 8px; }
+h2 { font-family:"Chakra", sans-serif; color:var(--ice); font-size:12px; letter-spacing:.22em; text-transform:uppercase; margin:36px 0 8px; }
+p, li { margin: 0 0 12px; }
+a { color: var(--ice); }
+.meta { font-family:"Mono", monospace; color:var(--faint); font-size:13px; }
+.panel { border:1px solid var(--edge); border-radius:18px; padding:20px 22px; background:rgba(255,255,255,.03); margin-top:28px; }
+footer { margin-top:56px; font-family:"Mono", monospace; font-size:12px; color:var(--faint); }
+footer a { color: var(--faint); }
